@@ -127,3 +127,34 @@ img {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.signup-section {
+    display: flex;
+    background-color: rgb(8, 122, 253);
+    margin: 100px;
+    padding: 50px 80px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.ssleft {
+    flex-direction: column;
+    flex-grow: 2;
+}
+.call-to-action{
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subtext-action{
+    color: white;
+}
+
+.signup-button{
+    background-color: rgb(8, 122, 253);
+    outline: 2px solid white;
+    border-radius: 3px;
+    padding: 10px 50px;
+    color: white;
+}
