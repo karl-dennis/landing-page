@@ -18,6 +18,7 @@
     margin-left: 100px;
     margin-right: 100px;
     gap: 10px;
+    padding: 50px 100px;
 }
 
 .header-logo {
@@ -39,6 +40,7 @@ a {
     display: flex;
     justify-content: space-between;
     margin: 100px;
+    padding: 50px 100px;
 }
 
 .signup {
@@ -46,10 +48,11 @@ a {
     padding: 8px 20px;
     border-radius: 10px;
     color: white;
+    margin-top: 16px;
 }
 
 img {
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 
@@ -110,7 +113,7 @@ img {
 }
 
 .qoute-wrapper {
-    padding: 200px;
+    padding: 200px 400px;
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
@@ -126,13 +129,14 @@ img {
 .author {
     font-weight: bold;
     align-self: flex-end;
+    max-width: 460px;
 }
 
 .signup-section {
     display: flex;
     background-color: rgb(8, 122, 253);
     margin: 100px;
-    padding: 50px 80px;
+    padding: 50px 200px;
     border-radius: 10px;
     flex: 1;
 }
@@ -141,17 +145,18 @@ img {
     flex-direction: column;
     flex-grow: 2;
 }
-.call-to-action{
+
+.call-to-action {
     color: white;
     font-size: 24px;
     font-weight: bold;
 }
 
-.subtext-action{
+.subtext-action {
     color: white;
 }
 
-.signup-button{
+.signup-button {
     background-color: rgb(8, 122, 253);
     outline: 2px solid white;
     border-radius: 3px;
